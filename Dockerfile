@@ -1,4 +1,4 @@
-FROM resin/rpi-node:0.10-wheezy
+FROM resin/rpi-raspbian:wheezy
 
 RUN apt-get update \
   && apt-get upgrade -y \
