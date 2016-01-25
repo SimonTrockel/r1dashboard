@@ -3,6 +3,7 @@ FROM resin/rpi-raspbian:wheezy
 RUN apt-get update \
   && apt-get upgrade -y \
   && apt-get install -y \
+    xorg \
     chromium-browser \
     fbset \
     htop \

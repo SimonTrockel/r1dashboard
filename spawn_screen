@@ -12,7 +12,7 @@ echo $URL > /usr/src/app/url.txt
 
 useradd -m pi
 
-# Grnt the pi user permission to use the video
+# Grant the pi user permission to use the video
 
 gpasswd -a pi video
 
